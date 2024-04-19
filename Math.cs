@@ -16,6 +16,10 @@ namespace pr3
         {
             return A - B;
         }
+        public double multiplication(double A, double B)
+        {
+            return A * B;
+        }
     }      
 }
 

@@ -28,6 +28,11 @@ namespace pr3
                 rezult = math.minus(A, B);
                 Console.WriteLine(rezult);
             }
+            if (C == "*")
+            {
+                rezult = math.multiplication(A, B);
+                Console.WriteLine(rezult);
+            }
         }
     }
 }
