@@ -23,6 +23,11 @@ namespace pr3
                 rezult = math.plus(A, B);
                 Console.WriteLine(rezult);
             }
+            if (C == "-")
+            {
+                rezult = math.minus(A, B);
+                Console.WriteLine(rezult);
+            }
         }
     }
 }

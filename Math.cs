@@ -12,6 +12,10 @@ namespace pr3
         {
             return A + B;
         }
+        public double minus(double A, double B)
+        {
+            return A - B;
+        }
     }      
 }
 
