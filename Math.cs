@@ -20,6 +20,11 @@ namespace pr3
         {
             return A * B;
         }
-    }      
+        public double division(double A, double B)
+        {
+            return A / B;
+        }
+    }
+   
 }
 

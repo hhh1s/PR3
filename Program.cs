@@ -33,6 +33,11 @@ namespace pr3
                 rezult = math.multiplication(A, B);
                 Console.WriteLine(rezult);
             }
+            if (C == "/")
+            {
+                rezult = math.division(A, B);
+                Console.WriteLine(rezult);
+            }
         }
     }
 }
